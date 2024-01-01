@@ -1,0 +1,131 @@
+body {
+  background-color: #04052e;
+  background-image: url(images/background.jpg);
+  background-size: contain;
+  background-position-y: -80px;
+  background-repeat: no-repeat;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  word-spacing: 75px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+h4 {
+  color: #a54657;
+  font-size: 32px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  max-width: 700px;
+}
+
+a {
+  color: #ffffff;
+  transition: color 0.25s;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 35px;
+}
+
+a:hover {
+  color: #a54657;
+}
+
+ion-icon {
+  color: #ffffff;
+  font-size: 35px;
+  transition: color 0.25s;
+}
+
+ion-icon:hover {
+  color: #a54657;
+}
+
+.links {
+  text-align: center;
+}
+
+.recents {
+  margin-left: 275px;
+}
+
+progress {
+  accent-color: #a54657;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+  text-align: end;
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(221, 221, 221);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 20px;
+}
+
+progress[value]::-webkit-progress-value {
+  background: #ff0000 !important;
+  border-radius: 20px;
+}
+
+progress:after {
+  position: relative;
+  left: 100px;
+  top: -15px;
+  content: attr(value) "%";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.languages {
+  width: 250;
+  text-align: center;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.speakingLanguages {
+  width: 250;
+  text-align: left;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.download {
+  text-align: center;
+  height: 100px;
+  margin-top: 60px;
+  transition: color 0.25s;
+}
+
+.download:hover {
+  color: #a54657;
+}
