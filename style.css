@@ -68,6 +68,11 @@ progress {
   text-align: end;
 }
 
+.title {
+  ion-icon:hover {
+    color: #a54657;
+  }
+}
 .recents {
   p {
     text-align: left;
@@ -84,11 +89,13 @@ progress {
   width: 50%;
 }
 
+ion-icon {
+  color: #ffffff;
+  font-size: 35px;
+  transition: color 0.25s;
+}
+
 .skills {
-  ion-icon {
-    color: #ffffff;
-    font-size: 35px;
-  }
   display: flex;
   padding-bottom: 40px;
 }
@@ -99,6 +106,13 @@ progress {
   border: solid #ffffff;
   width: 30%;
   margin: auto;
+  transition: color 0.25s;
+}
+.cv:hover {
+  color: #a54657;
+  ion-icon {
+    color: #a54657;
+  }
 }
 
 .quicklinks {
